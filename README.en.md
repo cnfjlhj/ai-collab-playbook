@@ -72,11 +72,14 @@ The core ideas are simple:
 
 ## Standalone Skill Repos
 
-These are the first spin-outs that are now easier to star, fork, and maintain on their own, while the mother repo keeps the long-form article and overall context.
+These are the current standalone skill repos that are easier to star, fork, and maintain on their own, while the mother repo keeps the long-form article and overall context.
 
 - [`paper-review-pipeline`](https://github.com/cnfjlhj/paper-review-pipeline): the standalone local paper-review workflow.
+- [`paperreview`](https://github.com/cnfjlhj/paperreview): the standalone external second-opinion bridge to `paperreview.ai`.
 - [`skills-governance`](https://github.com/cnfjlhj/skills-governance): the standalone inventory and governance tool for local skill collections.
+- [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex): the standalone task-context recovery toolkit for local Codex sessions.
 - [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex): the standalone bridge for collaborating with a second Codex CLI session.
+- [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator): the standalone Xiaohongshu note-production toolkit for themed cards and optional publishing.
 
 For the full in-repo directory view, see [`skills/README.en.md`](skills/README.en.md) and [`skills/full/README.en.md`](skills/full/README.en.md).
 
@@ -84,4 +87,4 @@ For the full in-repo directory view, see [`skills/README.en.md`](skills/README.e
 
 - This is a **Chinese-first** repository. Most prompts, the main article, and many skill notes are written in Chinese.
 - The public files here are the versions I consider safe and worth sharing, not a mirror of every private local setup.
-- The first wave of standalone skill repositories is already linked above. If more skills mature into stronger independent projects, I will spin them out while keeping this repo as the mother repo / overview layer.
+- The current standalone skill repositories are linked above. If more skills mature into stronger independent projects, I will spin them out while keeping this repo as the mother repo / overview layer.

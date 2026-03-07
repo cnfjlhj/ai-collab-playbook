@@ -104,8 +104,11 @@
 这部分收的是已经更适合单独维护、单独 star 和单独 fork 的技能项目；主仓这里继续保留总览、文章和它们之间的关系说明。
 
 - [`paper-review-pipeline`](https://github.com/cnfjlhj/paper-review-pipeline)：从主仓里拆出的论文自审流水线，适合单独引用、单独 fork、单独继续迭代。
+- [`paperreview`](https://github.com/cnfjlhj/paperreview)：从主仓里拆出的外部二审桥接仓，适合单独提交近定稿 PDF 并轮询结果。
 - [`skills-governance`](https://github.com/cnfjlhj/skills-governance)：从主仓里拆出的 skill 盘点与治理工具，更适合作为独立小工具单独维护。
+- [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex)：从主仓里拆出的 Codex 会话恢复工具，用来把任务现场重新捞回来。
 - [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex)：从主仓里拆出的 Codex 协作桥，用来把第二个 Codex CLI 会话接进当前工作流。
+- [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator)：从主仓里拆出的小红书笔记生产线，更适合单独 fork 回去改模板、主题和发布链路。
 
 仓库内完整目录见：[`skills/README.md`](skills/README.md) / [`skills/full/README.md`](skills/full/README.md)
 
@@ -121,4 +124,4 @@
 
 - 这是一个**中文优先**的仓库；目前提供了一个轻量英文入口页：[`README.en.md`](README.en.md)。
 - 这里公开的是我认为适合分享、适合同步到 GitHub 的版本，不等于我本地所有私有环境配置的完整镜像。
-- 第一批已经拆出的独立技能项目见上；后面如果还有 skill 长成了更完整的项目，我会继续单独拆仓维护，主仓这里优先保留总览、方法论和入口。
+- 目前已经拆出的独立技能项目见上；后面如果还有 skill 长成了更完整的项目，我会继续单独拆仓维护，主仓这里优先保留总览、方法论和入口。

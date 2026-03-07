@@ -20,3 +20,4 @@
 边界：
 - 它不是“全自动爆款生成器”
 - 渲染卡片用的 Markdown 与最终平台正文不是一回事，不能混着理解
+独立仓库：<https://github.com/cnfjlhj/xhs-note-creator>

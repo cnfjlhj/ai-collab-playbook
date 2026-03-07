@@ -17,3 +17,4 @@
 - 先做本地 review，再决定是否走外部二审
 - `--submit` 属于真实外部副作用，默认先 `--dry-run`
 - 公共版本不内置个人邮箱
+独立仓库：<https://github.com/cnfjlhj/paperreview>

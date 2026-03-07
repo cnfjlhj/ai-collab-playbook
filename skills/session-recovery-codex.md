@@ -20,3 +20,4 @@
 - 涉及文件
 - 关键决策
 - 最近报错或关键工具输出
+独立仓库：<https://github.com/cnfjlhj/session-recovery-codex>
