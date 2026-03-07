@@ -1,0 +1,12 @@
+.DS_Store
+*.bak
+
+# Generated docs artifacts
+
+docs/**/*.pdf
+docs/**/*.html
+docs/**/*.mobile.md
+docs/**/*.xhs-lossless.md
+docs/**/*.xiaohongshu.md
+docs/**/*-assets/
+docs/**/claude-code-remote/

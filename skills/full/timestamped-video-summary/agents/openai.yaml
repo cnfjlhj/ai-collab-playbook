@@ -1,0 +1,4 @@
+interface:
+  display_name: "Timestamped Video Summary"
+  short_description: "Help with Timestamped Video Summary tasks"
+  default_prompt: "将带时间戳字幕整理为严格结构的视频内容纪要（含【导师评注】），并可选导出为排版清晰的 PDF。"
