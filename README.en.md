@@ -80,6 +80,9 @@ These are the current standalone skill repos that are easier to star, fork, and 
 - [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex): the standalone task-context recovery toolkit for local Codex sessions.
 - [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex): the standalone bridge for collaborating with a second Codex CLI session.
 - [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator): the standalone Xiaohongshu note-production toolkit for themed cards and optional publishing.
+- [`prompt-polisher`](https://github.com/cnfjlhj/prompt-polisher): the standalone prompt-refinement workflow for turning messy notes into clearer executable prompts.
+- [`writing-anti-ai`](https://github.com/cnfjlhj/writing-anti-ai): the standalone bilingual editing guide for removing common AI-writing patterns while keeping author voice.
+- [`xhs-longform-private-publisher`](https://github.com/cnfjlhj/xhs-longform-private-publisher): the standalone private-publishing workflow for moving an existing Markdown long-form post to Xiaohongshu with ordered inline images.
 
 For the full in-repo directory view, see [`skills/README.en.md`](skills/README.en.md) and [`skills/full/README.en.md`](skills/full/README.en.md).
 

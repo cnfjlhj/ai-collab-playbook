@@ -21,3 +21,5 @@
 边界：
 - 它偏“长文 + 私密 + 尽量不改写”的忠实搬运场景
 - 真实发布依赖平台页面、登录状态与人工验收
+
+独立仓库：<https://github.com/cnfjlhj/xhs-longform-private-publisher>

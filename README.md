@@ -109,6 +109,9 @@
 - [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex)：从主仓里拆出的 Codex 会话恢复工具，用来把任务现场重新捞回来。
 - [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex)：从主仓里拆出的 Codex 协作桥，用来把第二个 Codex CLI 会话接进当前工作流。
 - [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator)：从主仓里拆出的小红书笔记生产线，更适合单独 fork 回去改模板、主题和发布链路。
+- [`prompt-polisher`](https://github.com/cnfjlhj/prompt-polisher)：从主仓里拆出的 prompt 整理仓，适合把语音转写、碎碎念和粗糙说明先打磨成真正可执行的输入。
+- [`writing-anti-ai`](https://github.com/cnfjlhj/writing-anti-ai)：从主仓里拆出的双语写作修订仓，用来去掉常见 AI 痕迹，同时尽量保留作者原本的语气和立场。
+- [`xhs-longform-private-publisher`](https://github.com/cnfjlhj/xhs-longform-private-publisher)：从主仓里拆出的小红书长文私密发布仓，更适合忠实搬运已有 Markdown 长文并按顺序插入配图。
 
 仓库内完整目录见：[`skills/README.md`](skills/README.md) / [`skills/full/README.md`](skills/full/README.md)
 

@@ -20,3 +20,5 @@
 边界：
 - 它更偏 Claude 4.x / Opus 4.5 / Sonnet 4.5 这类工作流
 - 默认会先预览再执行，不是无脑自动把原文直接丢给模型
+
+独立仓库：<https://github.com/cnfjlhj/prompt-polisher>

@@ -15,3 +15,5 @@
 边界：
 - 它不是“保证绕过 AI 检测”的工具
 - 去掉套路感之后，真正的人味仍然依赖操作者判断和取舍
+
+独立仓库：<https://github.com/cnfjlhj/writing-anti-ai>
