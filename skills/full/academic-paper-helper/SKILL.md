@@ -363,19 +363,19 @@ Recent work~\citep{vaswani2017attention,devlin2018bert} has shown...
 4. **在文中引用**：使用 \cite{} 或 \citep{}
 5. **编译**：运行 latex → bibtex → latex → latex
 
-## 集成 CLAUDE.md 规则
+## 集成 AGENTS.md / CLAUDE.md 规则
 
-### 遵守的铁律
+### 遵守的规则
 
-- **铁律 0（主动探索）**：自动搜索相关论文和模板
-- **铁律 2（版本控制）**：每次修改后自动 git commit
-- **工程原则**：代码可复现，注释清晰
+- **主动探索**：优先搜索相关论文、模板与格式要求
+- **执行门禁**：涉及改稿、重构或批量替换前，先对齐目标、范围与验收标准
+- **结果验证**：BibTeX、编译、格式检查都要实际跑通再算完成
 
-### 与其他 Skills 配合
+### 与其他 Skills / 工具配合
 
-- **claude-environment-awareness**：访问历史论文和模板
-- **pptx**：从论文生成学术演示
-- **pdf**：从 PDF 提取论文内容
+- **论文审阅类 workflow**：用于投稿前 QA 和多轮自审
+- **演示文稿工具**：从论文内容整理 slides 或报告提纲
+- **PDF 工具链**：从 PDF 提取文本、表格与关键内容
 
 ## 相关资源
 

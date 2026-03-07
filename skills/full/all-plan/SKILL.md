@@ -7,13 +7,13 @@ metadata:
 
 # All Plan (Codex Version)
 
-Collaborative planning using abstract roles defined in CLAUDE.md Role Assignment table.
+Collaborative planning using abstract roles mapped in your current multi-model setup.
 
 Highlights:
 - 5-Dimension requirement clarification (retained)
 - `inspiration` brainstorming for creative/aesthetic ideas
 - `designer` creates the full plan independently
-- `reviewer` scores the plan using Rubric A (must pass >= 7.0)
+- `reviewer` scores the plan using the review rubric in this workflow (must pass >= 7.0)
 - Auto-correction loop (max 3 rounds)
 
 For full instructions, see `references/flow.md`

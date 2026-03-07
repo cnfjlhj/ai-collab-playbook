@@ -12,7 +12,7 @@
 - **AI 协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **Prompts**：[`prompts/`](prompts)
 - **Skills 索引**：[`skills/`](skills)
-- **完整公开版 Skills**：[`skills/full/`](skills/full)
+- **目前公开版 Skills**：[`skills/full/`](skills/full)
 
 ## 文章
 
@@ -83,6 +83,8 @@
 
 ## Skills
 
+这里优先公开与主文章直接相关、且适合直接复用的部分。
+
 - [`skills/full/proactive-explorer/`](skills/full/proactive-explorer)：主动探索，先把事实摸清再动手
 - [`skills/full/prompt-polisher/`](skills/full/prompt-polisher)：把凌乱输入整理成可执行 prompt
 - [`skills/full/question-refiner/`](skills/full/question-refiner)：把模糊问题收敛成结构化研究任务
@@ -90,6 +92,7 @@
 - [`skills/full/all-plan/`](skills/full/all-plan)：用多视角规划复杂任务
 - [`skills/full/academic-paper-helper/`](skills/full/academic-paper-helper)：处理论文写作、BibTeX、LaTeX 等细活
 - [`skills/full/paper-review-pipeline/`](skills/full/paper-review-pipeline)：做论文自审、投稿前 QA 与 review pipeline
+- [`skills/full/paperreview/`](skills/full/paperreview)：把接近定稿的 PDF 提交到 `paperreview.ai` 做外部二审
 - [`skills/full/writing-anti-ai/`](skills/full/writing-anti-ai)：去掉 AI 味，修正文风
 - [`skills/full/session-recovery-codex/`](skills/full/session-recovery-codex)：恢复 Codex 会话现场并继续执行
 - [`skills/full/timestamped-video-summary/`](skills/full/timestamped-video-summary)：把时间戳字幕整理成结构化纪要
@@ -98,5 +101,6 @@
 - [`skills/full/collaborating-with-codex/`](skills/full/collaborating-with-codex)：让第二个 Codex 会话参与原型或复核
 - [`skills/full/collaborating-with-gemini/`](skills/full/collaborating-with-gemini)：把 Gemini 拉进来做对照验证
 - [`skills/full/find-skills/`](skills/full/find-skills)：优先寻找现成 skill，减少重复造轮子
+- [`skills/full/skill-creator/`](skills/full/skill-creator)：造 Skill 的 Skill，把常用 workflow 沉淀成模板
 - [`skills/full/xhs-note-creator/`](skills/full/xhs-note-creator)：生成小红书笔记素材，并保留发布工作流说明
 - [`skills/full/xhs-longform-private-publisher/`](skills/full/xhs-longform-private-publisher)：把长文按私密方式发布到小红书

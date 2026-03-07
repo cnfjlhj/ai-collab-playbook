@@ -1,13 +1,13 @@
 # All Plan (Codex Version)
 
-Planning skill using abstract roles defined in CLAUDE.md Role Assignment table.
+Planning skill using abstract roles mapped in your current multi-model setup.
 
 **Usage**: For complex features or architectural decisions requiring thorough planning.
 
-**Roles used by this skill** (resolve to providers via CLAUDE.md `CCB_ROLES`):
+**Roles used by this skill** (map them to concrete providers in your current environment; if no explicit mapping exists, choose them manually):
 - `designer` — Primary planner, owns the plan from start to finish
 - `inspiration` — Creative brainstorming consultant (unreliable, use with judgment)
-- `reviewer` — Scored quality gate, evaluates the plan using Rubric A (must pass >= 7.0)
+- `reviewer` — Scored quality gate, evaluates the plan using the review rubric below (must pass >= 7.0)
 
 ---
 
@@ -314,7 +314,7 @@ Save as `plan_draft_v1`.
 
 ### Phase 4: Scored Review
 
-Submit the plan to `reviewer` for scored review using Rubric A (defined in CLAUDE.md).
+Submit the plan to `reviewer` for scored review using the review rubric defined in this workflow.
 
 **4.1 Submit Plan for Review**
 
@@ -322,7 +322,7 @@ Send to `reviewer` (via `/ask`):
 
 ```
 [PLAN REVIEW REQUEST]
-Review the following implementation plan using Rubric A. Score EACH dimension individually with detailed feedback.
+Review the following implementation plan using the review rubric below. Score EACH dimension individually with detailed feedback.
 Return your response as JSON with this exact structure:
 {
   "review_type": "plan",
@@ -598,7 +598,7 @@ Next: Review the plan and proceed with implementation when ready.
 3. **Readiness Scoring**: Quantify requirement completeness before proceeding
 4. **`inspiration` for Ideas Only**: Leverage creativity but never blindly follow it
 5. **User Controls Inspiration**: User decides which ideas to adopt/discard
-6. **`reviewer` as Quality Gate**: Plan must pass Rubric A (>= 7.0) before proceeding
+6. **`reviewer` as Quality Gate**: Plan must pass the review rubric (>= 7.0) before proceeding
 7. **Dimension-Level Feedback**: The `reviewer` scores each dimension individually with actionable fixes
 8. **Auto-Correction with Limits**: Max 3 review rounds; escalate to user if still failing
 9. **Concrete Deliverables**: Output actionable plan document, not just discussion notes
@@ -610,7 +610,7 @@ Next: Review the plan and proceed with implementation when ready.
 
 - This skill is designed for complex features or architectural decisions
 - For simple tasks, use direct implementation instead
-- Resolve `inspiration` and `reviewer` to providers via CLAUDE.md Role Assignment, then use `/ask <provider>`
+- Resolve `inspiration` and `reviewer` to concrete providers in your current environment, then use your local ask / delegation command
 - If `inspiration` provider is not available, skip Phase 2 and proceed directly to Phase 3
 - If `reviewer` provider is not available, skip Phase 4 and present the plan directly to user
 - Plans are saved to `plans/` directory with descriptive filenames

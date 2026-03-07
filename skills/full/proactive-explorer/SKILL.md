@@ -1,13 +1,13 @@
 ---
 name: proactive-explorer
-description: 实现 CLAUDE.md 铁律 0（主动探索原则），在向用户提问前自动使用 Grep、Read、Bash、WebSearch 等工具获取信息
+description: 落实 CLAUDE.md / AGENTS.md 中的“主动探索”原则，在向用户提问前自动使用 Grep、Read、Bash、WebSearch 等工具获取信息
 ---
 
 # 主动探索器
 
 ## 功能说明
 
-此 Skill 实现 CLAUDE.md 铁律 0（主动探索原则）的核心理念：
+此 Skill 落实 CLAUDE.md / AGENTS.md 中“主动探索”原则的核心理念：
 > 宁可多做 10 步探索，不让用户回答 1 个本可自己找到答案的问题。
 
 ## 核心原则
@@ -364,7 +364,7 @@ Claude：
 
 ### 遵守的规则
 
-- **强制行为准则 §2**：此 Skill 的核心实现（主动探索）
+- **核心行为准则中的主动探索**：此 Skill 的核心实现
 - **用户时间最小化**：减少用户等待和认知负担
 - **主动代理原则**：理解意图，主动补全信息
 
@@ -372,7 +372,7 @@ Claude：
 
 - 所有 Skills 执行前都应该先使用此 Skill 探索
 - 与 **sequential-thinking** 配合进行复杂分析
-- 与 **auto-git-commit** 配合自动化流程
+- 与版本控制类 workflow 配合，在探索完成后再进入提交阶段
 
 ## 性能优化
 
@@ -400,5 +400,5 @@ Claude：
 
 ## 相关文档
 
-- 全局 CLAUDE.md: `~/.claude/CLAUDE.md`（强制行为准则 §2）
-- 项目 CLAUDE.md: 包含项目特定规范和决策
+- 全局或项目级 CLAUDE.md / AGENTS.md：包含主动探索、执行门禁与验证规则
+- 项目级规范文件：包含项目特定规范和历史决策
