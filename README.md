@@ -14,7 +14,7 @@
 - **Skills 索引**：[`skills/`](skills)
 - **完整公开版 Skills**：[`skills/full/`](skills/full)
 
-## 重点文章
+## 文章
 
 ### [作为一名在读博士生，我在日常是如何与 AI 协作的？](docs/phd-ai-collab.md)
 
@@ -53,9 +53,9 @@
   - Skill 不是越多越好
   - 警惕“效率幻觉”
 
-## 我的协作守则
+## 我的Code Agent配置
 
-如果你更关心“如何把 AI 真正变成协作对象，而不是只把它当工具”，最值得先看的其实是这两份文件：
+配置在这两份文件：
 
 - [`AGENTS.md`](AGENTS.md)：偏向 Codex / 通用 agent 协作的执行原则
 - [`CLAUDE.md`](CLAUDE.md)：偏向 Claude Code / 代码工作流的协作原则
@@ -82,21 +82,6 @@
 - [`prompts/论文转网页.md`](prompts/论文转网页.md)
 
 ## Skills
-
-这里分成两层：
-
-- [`skills/`](skills)：简要索引，适合先快速浏览
-- [`skills/full/`](skills/full)：完整公开版 skills，可直接打开目录阅读 `SKILL.md`，也可以整目录下载复用
-
-### 简要索引
-
-- [`skills/paper-review-pipeline.md`](skills/paper-review-pipeline.md)
-- [`skills/proactive-explorer.md`](skills/proactive-explorer.md)
-- [`skills/session-recovery-codex.md`](skills/session-recovery-codex.md)
-- [`skills/skills-governance.md`](skills/skills-governance.md)
-- [`skills/timestamped-video-summary.md`](skills/timestamped-video-summary.md)
-
-### 完整公开版 Skills（第一批 + 第二批）
 
 - [`skills/full/proactive-explorer/`](skills/full/proactive-explorer)：主动探索，先把事实摸清再动手
 - [`skills/full/prompt-polisher/`](skills/full/prompt-polisher)：把凌乱输入整理成可执行 prompt
