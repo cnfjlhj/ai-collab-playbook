@@ -18,6 +18,8 @@
 
 - **经验沉淀**：把流程固化为 Skill（Agent 中的术语）或 GPTs（Prompts 库），越用越快
 
+![博士生的 AI 协作总览图](figs/phd-ai-collab-overview.png)
+
 ---
 
 ## 一、日常使用：AI 作为随身顾问

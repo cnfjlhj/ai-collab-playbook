@@ -2,6 +2,8 @@
 
 [中文] | [English](README.en.md)
 
+[![博士生 AI 协作总览图](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
+
 这是一个由一名在读博士生维护、以 **AI 协作实践** 为核心的个人 playbook，主要收录长期使用的 prompts、skills，以及围绕“博士生日常如何与 AI 协作”的持续更新内容。
 
 如果你是第一次来到这个仓库，建议先看 [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)。
