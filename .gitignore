@@ -10,7 +10,7 @@ docs/**/*.xhs-lossless.md
 docs/**/*.xiaohongshu.md
 docs/**/*-assets/
 docs/**/claude-code-remote/
+docs/CLAUDE.md-*.txt
 # Python caches
 __pycache__/
 *.pyc
-
