@@ -10,7 +10,8 @@
 
 ## 快速导航
 
-- **最新文章（2026-03-06 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **最新文章（2026-03-13 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **更新节奏**：公开版本通常在每周五同步；如果当周有明显改动，也可能提前更新。
 - **Linux.do 转发版**：<https://linux.do/t/topic/1667121>
 - **小红书转发版**：<https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 - **协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)

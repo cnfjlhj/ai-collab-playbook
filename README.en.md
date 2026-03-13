@@ -8,7 +8,8 @@ If you are new here, start with the main article: [`docs/phd-ai-collab.md`](docs
 
 ## Start Here
 
-- **Main article (2026-03-06 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **Main article (2026-03-13 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **Update cadence**: the public version is usually synced on Fridays, with occasional earlier updates when there are substantial changes.
 - **Linux.do discussion**: <https://linux.do/t/topic/1667121>
 - **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
 - **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
