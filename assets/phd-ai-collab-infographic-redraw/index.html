@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>博士生的 AI 协作手册</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="poster-shell">
+      <section class="poster">
+        <header class="hero">
+          <div class="hero-corner hero-corner-left">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <defs>
+                <linearGradient id="heroLens" x1="0%" x2="100%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#d6e4ff" />
+                  <stop offset="100%" stop-color="#93b2ff" />
+                </linearGradient>
+              </defs>
+              <g fill="none" stroke="#3e5f9e" stroke-width="4">
+                <circle cx="58" cy="54" r="24" fill="url(#heroLens)" />
+                <line x1="76" x2="97" y1="73" y2="94" stroke-linecap="round" />
+                <circle cx="58" cy="54" r="38" opacity="0.35" />
+                <circle cx="16" cy="34" r="8" fill="#b9c9ff" />
+                <circle cx="34" cy="16" r="8" fill="#d7e4ff" />
+                <circle cx="96" cy="20" r="8" fill="#d7e4ff" />
+                <circle cx="100" cy="72" r="8" fill="#b9c9ff" />
+                <line x1="24" x2="40" y1="38" y2="44" opacity="0.5" />
+                <line x1="38" x2="46" y1="24" y2="36" opacity="0.5" />
+                <line x1="90" x2="77" y1="27" y2="39" opacity="0.5" />
+                <line x1="92" x2="79" y1="68" y2="64" opacity="0.5" />
+              </g>
+            </svg>
+          </div>
+
+          <div class="hero-copy">
+            <div class="hero-badges">
+              <span>元提示词思维</span>
+              <span>苏格拉底追问</span>
+              <span>多模型协作</span>
+              <span>经验沉淀</span>
+            </div>
+            <div class="hero-eyebrow">前言：当同事，不当工具</div>
+            <h1>博士生的 AI 协作手册：从工具到同事的进化</h1>
+            <p>
+              “作为一名在读博士生，我在日常是如何与 AI 协作的？”
+              一周一更，实战派人机协作方法论
+            </p>
+          </div>
+
+          <div class="hero-corner hero-corner-right">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <g fill="none" stroke="#4868a5" stroke-width="4" stroke-linecap="round">
+                <path d="M22 86c18-3 28-14 38-34 10 20 20 31 38 34" />
+                <path d="M30 88V36l28 9 28-9v52" />
+                <path d="M58 45v40" />
+                <path d="M22 86h76" />
+                <path d="M92 18l6 6" opacity="0.5" />
+                <path d="M18 32l6 6" opacity="0.5" />
+                <path d="M18 18l8 0" opacity="0.35" />
+                <path d="M102 58l0 8" opacity="0.35" />
+              </g>
+            </svg>
+          </div>
+        </header>
+
+        <section class="content-grid">
+          <div class="left-column">
+            <article class="panel panel-daily">
+              <div class="panel-head">
+                <div class="panel-illustration">
+                  <svg viewBox="0 0 120 120" aria-hidden="true">
+                    <g fill="none" stroke="#405d96" stroke-width="4">
+                      <rect x="22" y="8" width="54" height="94" rx="10" fill="#dfeaff" />
+                      <circle cx="49" cy="88" r="4" fill="#405d96" />
+                      <line x1="34" x2="64" y1="24" y2="24" />
+                      <line x1="34" x2="64" y1="36" y2="36" opacity="0.5" />
+                      <line x1="34" x2="64" y1="48" y2="48" opacity="0.5" />
+                      <circle cx="78" cy="62" r="22" fill="#f6fbff" />
+                      <line x1="94" x2="108" y1="78" y2="92" stroke-linecap="round" />
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h2>日常使用：随身顾问</h2>
+                  <p class="panel-kicker">把低摩擦的微协作嵌进日常工作流</p>
+                </div>
+              </div>
+              <ul class="bullet-list">
+                <li>划词工具栏（豆包 / 夸克 / 飞书）</li>
+                <li>自定义动作</li>
+                <li>OpenClaw：推送助手 / 提醒</li>
+                <li>Code Agent 接入</li>
+              </ul>
+              <div class="panel-pill">降低使用摩擦力</div>
+            </article>
+
+            <article class="panel panel-drawing">
+              <div class="panel-head">
+                <div class="panel-illustration">
+                  <svg viewBox="0 0 120 120" aria-hidden="true">
+                    <g fill="none" stroke="#405d96" stroke-width="4">
+                      <rect x="16" y="18" width="88" height="72" rx="14" fill="#edf4ff" />
+                      <path d="M34 66l12-14 12 10 18-24 10 12" />
+                      <line x1="86" x2="104" y1="88" y2="106" stroke-linecap="round" />
+                      <path d="M88 84l9 9" stroke="#7e9be0" />
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h2>科研绘图</h2>
+                  <p class="panel-kicker">从参考收集到审美对齐，先快后细</p>
+                </div>
+              </div>
+              <div class="drawing-layout">
+                <ul class="bullet-list">
+                  <li>插图 / Teaser / Poster</li>
+                  <li>让 AI 写操纵 AI 的 Prompt</li>
+                  <li>Nature / Science 风格参考</li>
+                </ul>
+                <div class="compare-card">
+                  <div class="compare-row">
+                    <strong>GPT</strong>
+                    <span>逻辑准确，公式渲染好，速度慢</span>
+                  </div>
+                  <div class="compare-row compare-row-accent">
+                    <strong>NanoBanana</strong>
+                    <span>速度快，视觉风格强，但需要后修</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel panel-writing">
+              <div class="panel-head">
+                <div class="panel-illustration">
+                  <svg viewBox="0 0 120 120" aria-hidden="true">
+                    <g fill="none" stroke="#405d96" stroke-width="4">
+                      <rect x="20" y="16" width="72" height="88" rx="14" fill="#f1f6ff" />
+                      <circle cx="44" cy="38" r="10" />
+                      <line x1="38" x2="72" y1="58" y2="58" />
+                      <line x1="38" x2="72" y1="72" y2="72" opacity="0.5" />
+                      <line x1="38" x2="66" y1="86" y2="86" opacity="0.5" />
+                      <path d="M88 84l20-20" stroke-linecap="round" />
+                      <path d="M95 77l7 7" />
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h2>科研写作</h2>
+                  <p class="panel-kicker">用多轮迭代把小问题消灭在交付之前</p>
+                </div>
+              </div>
+              <ul class="bullet-list">
+                <li>AI 审稿 agents（paperreview / cspaper）</li>
+                <li>多轮迭代，解决潜在小问题</li>
+                <li>不同领域的写作 skill</li>
+              </ul>
+              <div class="bridge-tag">Claude-Code-Bridge</div>
+            </article>
+          </div>
+
+          <div class="right-column">
+            <article class="panel panel-reading">
+              <div class="sub-badges">
+                <span>元提示词思维</span>
+                <span>苏格拉底追问</span>
+                <span>多模型协作</span>
+                <span>经验沉淀</span>
+              </div>
+              <h2>科研文献阅读</h2>
+              <div class="reading-flow">
+                <div class="flow-step">
+                  <div class="flow-stage">调研</div>
+                  <div class="flow-orb orb-oai">OAI</div>
+                  <h3>OpenAI Deep Research</h3>
+                  <p>学术脉络分析</p>
+                </div>
+                <div class="flow-arrow" aria-hidden="true"></div>
+                <div class="flow-step">
+                  <div class="flow-stage">筛选</div>
+                  <div class="flow-orb orb-pc">PC</div>
+                  <h3>Paper Connect</h3>
+                  <p>文献网络分析<br />蓝海 / 卷海判断</p>
+                </div>
+                <div class="flow-arrow" aria-hidden="true"></div>
+                <div class="flow-step">
+                  <div class="flow-stage">精读</div>
+                  <div class="flow-orb orb-gemini">G</div>
+                  <h3>Gemini（宏观视角）</h3>
+                  <p>动机 → 数学建模 → 实验 → 结论 → 评述</p>
+                </div>
+                <div class="flow-arrow" aria-hidden="true"></div>
+                <div class="flow-step">
+                  <div class="flow-stage">精读</div>
+                  <div class="flow-orb orb-gpt">GPT</div>
+                  <h3>GPT（逐句精读）</h3>
+                  <p>Skill / GPTs：逐字逐句解释</p>
+                </div>
+                <div class="flow-arrow" aria-hidden="true"></div>
+                <div class="flow-step">
+                  <div class="flow-stage">整合</div>
+                  <div class="flow-orb orb-zotero">Z</div>
+                  <h3>Zotero</h3>
+                  <p>PDF 笔记 → HTML 速览<br />Zotero 插件开发</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel panel-code">
+              <div class="panel-title-row">
+                <h2>Code Agent 工具链</h2>
+                <div class="note-chip-row">
+                  <span>GPT / Codex：严谨 / review</span>
+                  <span>Claude：表达 / 工具调用</span>
+                  <span>CCB：多模型并行对齐需求</span>
+                </div>
+              </div>
+
+              <div class="code-layout">
+                <div class="tool-stack">
+                  <div class="tool-card tone-amber">
+                    <span class="tool-badge">AI</span>
+                    <strong>Claude Code</strong>
+                  </div>
+                  <div class="tool-card tone-green">
+                    <span class="tool-badge">C</span>
+                    <strong>Codex</strong>
+                  </div>
+                  <div class="tool-card tone-indigo">
+                    <span class="tool-badge">G</span>
+                    <strong>Gemini CLI</strong>
+                  </div>
+                  <div class="tool-card tone-slate">
+                    <span class="tool-badge">OC</span>
+                    <strong>OpenCode</strong>
+                  </div>
+                  <div class="bridge-rail">Claude-Code-Bridge</div>
+                </div>
+
+                <div class="iteration-loop">
+                  <div class="loop-ring"></div>
+                  <div class="loop-copy">
+                    <h3>需求讨论<br />与提问</h3>
+                    <p>多轮迭代</p>
+                  </div>
+                </div>
+
+                <div class="delivery-column">
+                  <div class="delivery-card">交付 GPT xhigh 严格执行</div>
+                  <div class="note-chip-row note-chip-row-secondary">
+                    <span>Gemini：前端 / 发散思维</span>
+                    <span>Grok：搜索</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="panel panel-reflection">
+              <h2>回顾与复盘</h2>
+              <div class="reflection-grid">
+                <div>Skill 减法（警惕噪声）</div>
+                <div>警惕“效率幻觉”</div>
+                <div>人在回路（决策可视化）</div>
+                <div>主动抽离（恢复元认知）</div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
