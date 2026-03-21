@@ -2,62 +2,37 @@
 
 [中文](README.md) | English
 
-A Chinese-first personal playbook about **collaborating with AI in real work**: daily academic life, research reading, scientific writing, code-agent workflows, and periodic review.
+A Chinese-first playbook built from how I actually work with AI: reading papers, writing, coding, reviewing, and keeping the workflow usable over time.
 
-If you are new here, start with the main article: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md).
+If you are new here, start with the main article. The prompts, skills, and working rules in this repo all grew out of that workflow rather than being collected as a separate showcase.
 
 ## Start Here
 
 - **Main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **Update cadence**: the public version is usually synced on Fridays, with occasional earlier updates when there are substantial changes.
+- **Jump to section 8: AI-era Survival (Learning) Guide**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **View all figures**: [`docs/figs`](docs/figs)
 - **Linux.do discussion**: <https://linux.do/t/topic/1667121>
 - **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
+
+[![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
+
+## What's in this update
+
+The public edition is now synced to `2026-03-20`. Alongside the text update, I also cleaned up the core figure set used on the homepage: the overview poster plus three focused visuals on learning, the code-agent framework, and the learning roadmap. If you only want the images, go to [`docs/figs`](docs/figs). If you want the context around them, start with the article.
+
+## What Else Is in the Repo
+
 - **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **Prompts**: [`prompts/`](prompts)
 - **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
-
-## Latest Visual Updates
-
-This update was not just a text revision. The visual layer was rebuilt as well: one refreshed overview poster plus three focused figures for learning, survival strategy, and the code-agent framework.
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-collab-overview.png" alt="PhD AI collaboration overview" width="420"></a><br>
-      <sub>PhD AI collaboration overview</sub>
-    </td>
-    <td align="center">
-      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI-era learning guide" width="420"></a><br>
-      <sub>AI-era learning guide</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code agent framework" width="420"></a><br>
-      <sub>Code agent framework</sub>
-    </td>
-    <td align="center">
-      <a href="docs/phd-ai-collab.md"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="420"></a><br>
-      <sub>AI learning roadmap</sub>
-    </td>
-  </tr>
-</table>
-
-## Main Article
-
-The main article is [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md).
-It is the best entry point if you want the full picture rather than isolated tips: how I use AI in daily academic work, literature reading, figure making, writing, code-agent workflows, and periodic review.
-
-- [`Read the full article`](docs/phd-ai-collab.md)
-- [`View the figures`](docs/figs)
-- [`Jump to section 8: AI-era Survival (Learning) Guide`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **Update cadence**: the public version is usually synced on Fridays, with earlier updates when something meaningfully changes.
 
 ## Working Rules
 
 - [`AGENTS.md`](AGENTS.md): working rules for Codex and general agents
 - [`CLAUDE.md`](CLAUDE.md): working rules for Claude Code style workflows
 
-These two files are the most reusable part of this repository. They reflect a workflow I have iterated on in actual use, not just a list of abstract principles.
+These files are not here as decoration. They are the working rules I actually use, so if you also want to treat AI as a collaborator rather than a demo tool, they are worth reading early.
 
 ## Prompts
 
@@ -71,7 +46,7 @@ These are prompt files I reuse frequently:
 
 ## Full Skills
 
-This README only points to full skills. It does not list the shorter `skills/*.md` index cards.
+This README only points to the full skills. It does not repeat the shorter `skills/*.md` index cards.
 
 - **In-repo full skill index**: [`skills/full/README.en.md`](skills/full/README.en.md)
 
