@@ -9,7 +9,7 @@
 ## 先从这里开始
 
 - **第一次来，先读主文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **想先看一段相对独立、适合作为入口的内容**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **如果你只想看“AI时代生存（学习）指南”这部分**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
 - **想直接拿可复用规则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **想找日常会复用的模板**：[`prompts/`](prompts)
 - **想浏览完整 skills 索引**：[`skills/full/README.md`](skills/full/README.md)

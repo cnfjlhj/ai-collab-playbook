@@ -9,7 +9,7 @@ If what you want is not "AI looks impressive" but "how do I get it into real dai
 ## Start Here
 
 - **New here? Start with the main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **Want a more self-contained entry point first?**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **Want to jump straight to the "AI-era Survival (Learning) Guide" section?**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
 - **Want reusable working rules right away?**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **Looking for prompt templates you can reuse?**: [`prompts/`](prompts)
 - **Want the full skill index?**: [`skills/full/README.en.md`](skills/full/README.en.md)
