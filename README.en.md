@@ -4,15 +4,16 @@
 
 A practical AI collaboration playbook for research, writing, reading, and coding. This repository is not a loose collection of tricks; it organizes the main article, working rules, reusable prompts, and full skills into one workflow you can actually reuse.
 
-If what you want is not "AI looks impressive" but "how do I get it into real daily work," start with the main article and then take the rules, prompts, and skill entry points you need.
+The main article is the center of the repository, and the other files point to the working rules, reusable prompts, figures, and full skill index around it.
 
-## Start Here
+## Contents
 
-- **New here? Start with the main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **Want to jump straight to the "AI-era Survival (Learning) Guide" section?**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
-- **Want reusable working rules right away?**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
-- **Looking for prompt templates you can reuse?**: [`prompts/`](prompts)
-- **Want the full skill index?**: [`skills/full/README.en.md`](skills/full/README.en.md)
+- **Main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **AI-era Survival (Learning) Guide**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
+- **Prompts**: [`prompts/`](prompts)
+- **Figures**: [`docs/figs`](docs/figs)
+- **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
 
 [![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 

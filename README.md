@@ -4,15 +4,16 @@
 
 面向科研、写作、阅读和编程的 AI 协作实战手册。这里不是零散技巧清单，而是把主文章、协作守则、常用 prompts 和完整 skills 组织成一套可复用的工作流。
 
-如果你想找的不是“AI 看起来很厉害”，而是“怎么让它真的进入日常工作”，建议先读主文章，再按需要拿走规则文件、prompt 模板和 skill 入口。
+仓库内容以主文章为主，其他文件分别对应协作守则、常用 prompts、配图和完整 skills 索引。
 
-## 先从这里开始
+## 目录
 
-- **第一次来，先读主文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **如果你只想看“AI时代生存（学习）指南”这部分**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
-- **想直接拿可复用规则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
-- **想找日常会复用的模板**：[`prompts/`](prompts)
-- **想浏览完整 skills 索引**：[`skills/full/README.md`](skills/full/README.md)
+- **主文章（2026-03-20 版）**：[`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **AI时代生存（学习）指南**：[`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **协作守则**：[`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
+- **Prompts**：[`prompts/`](prompts)
+- **配图**：[`docs/figs`](docs/figs)
+- **完整 Skills**：[`skills/full/README.md`](skills/full/README.md)
 
 [![博士生 AI 协作总览图](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 
