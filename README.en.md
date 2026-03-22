@@ -57,7 +57,7 @@ The public edition is now synced to `2026-03-20`. Alongside the text update, I a
 
 ## Feedback
 
-- **Open discussion, questions, or sharing your own adaptation**: <https://github.com/cnfjlhj/ai-collab-playbook/discussions>
+- **Drop a comment, leave feedback, or share your own adaptation**: <https://github.com/cnfjlhj/ai-collab-playbook/discussions/1>
 - **Corrections, structural feedback, or content fixes**: <https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose>
 
 ## Working Rules

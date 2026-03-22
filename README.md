@@ -57,7 +57,7 @@
 
 ## 反馈
 
-- **开放讨论 / 提问 / 分享你的改写版本**：<https://github.com/cnfjlhj/ai-collab-playbook/discussions>
+- **随手留言 / 读后反馈 / 分享你的改写版本**：<https://github.com/cnfjlhj/ai-collab-playbook/discussions/1>
 - **勘误 / 结构反馈 / 内容修正**：<https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose>
 
 ## 协作守则
