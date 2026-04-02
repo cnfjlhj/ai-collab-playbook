@@ -57,6 +57,7 @@
 | [skills-governance](https://github.com/cnfjlhj/skills-governance) | Skills 治理 |
 | [session-recovery-codex](https://github.com/cnfjlhj/session-recovery-codex) | 会话恢复 |
 | [collaborating-with-codex](https://github.com/cnfjlhj/collaborating-with-codex) | Codex 协作 |
+| [completion-learn](https://github.com/cnfjlhj/completion-learn) | 完成后复盘学习：先自我，再协作，再工具 |
 | [xhs-note-creator](https://github.com/cnfjlhj/xhs-note-creator) | 小红书笔记创作 |
 | [prompt-polisher](https://github.com/cnfjlhj/prompt-polisher) | 提示词润色 |
 | [writing-anti-ai](https://github.com/cnfjlhj/writing-anti-ai) | 去 AI 味写作 |

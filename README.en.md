@@ -89,6 +89,7 @@ This README points straight to the full skills instead of repeating the shorter 
 - [`skills-governance`](https://github.com/cnfjlhj/skills-governance)
 - [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex)
 - [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex)
+- [`completion-learn`](https://github.com/cnfjlhj/completion-learn)
 - [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator)
 - [`prompt-polisher`](https://github.com/cnfjlhj/prompt-polisher)
 - [`writing-anti-ai`](https://github.com/cnfjlhj/writing-anti-ai)
