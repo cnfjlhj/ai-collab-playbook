@@ -57,7 +57,7 @@
 | [skills-governance](https://github.com/cnfjlhj/skills-governance) | Skills 治理 |
 | [session-recovery-codex](https://github.com/cnfjlhj/session-recovery-codex) | 会话恢复 |
 | [collaborating-with-codex](https://github.com/cnfjlhj/collaborating-with-codex) | Codex 协作 |
-| [completion-learn](https://github.com/cnfjlhj/completion-learn) | completion debrief skill：把已完成任务转成成长收益，顺序是 self → collaboration → tool |
+| [completion-learn](https://github.com/cnfjlhj/completion-learn) | completion-only 三轴沉淀 skill：任务做完后，看 self → collaboration → tool 各留下些什么 |
 | [xhs-note-creator](https://github.com/cnfjlhj/xhs-note-creator) | 小红书笔记创作 |
 | [prompt-polisher](https://github.com/cnfjlhj/prompt-polisher) | 提示词润色 |
 | [writing-anti-ai](https://github.com/cnfjlhj/writing-anti-ai) | 去 AI 味写作 |

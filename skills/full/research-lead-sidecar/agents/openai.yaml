@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Lead Sidecar"
+  short_description: "Run research-led multi-agent execution safely"
+  default_prompt: "按 Research-Lead + Sidecar 协议组织当前任务：主智能体保持关键路径，侧车代理只接低耦合、易交付、可回收的 Scout / Worker / Verifier / Writer 子任务。"

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superpowers 核心工作流总览图</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="poster-page">
+    <main class="poster-shell">
+      <section class="poster poster-superpowers" data-poster-root>
+        <header class="hero hero-compact">
+          <div class="hero-copy">
+            <div class="hero-badges hero-badges-left">
+              <span>Skills First</span>
+              <span>Design Before Code</span>
+              <span>Evidence Before Claims</span>
+              <span>Branch Lifecycle</span>
+            </div>
+            <div class="hero-eyebrow">Upstream Superpowers · 14 Core Skills</div>
+            <h1>Superpowers：把 Coding Agent 变成工程化执行系统</h1>
+            <p>
+              它不是一组零散的技能目录，而是一套让 agent 先选流程、再对齐设计、再隔离执行、
+              最后经由 review、验证与分支收尾完成交付的 discipline system。
+            </p>
+          </div>
+        </header>
+
+        <section class="superpowers-top-grid">
+          <article class="panel panel-principles panel-superpowers-doctrine" data-fit-check>
+            <div class="panel-title-row">
+              <h2>四条核心思想</h2>
+              <div class="note-chip-row">
+                <span>不是 vibe coding</span>
+                <span>先流程后动作</span>
+              </div>
+            </div>
+            <div class="principle-grid">
+              <div class="principle-card">
+                <span class="card-index">A</span>
+                <strong>Skills First</strong>
+                <p>
+                  <code>using-superpowers</code> 先判断该进哪条 lane，
+                  不允许 agent 直接凭感觉开工。
+                </p>
+              </div>
+              <div class="principle-card">
+                <span class="card-index">B</span>
+                <strong>Design Before Implementation</strong>
+                <p>
+                  <code>brainstorming</code> 和 <code>writing-plans</code>
+                  先把模糊需求压成批准过的设计与可执行计划。
+                </p>
+              </div>
+              <div class="principle-card">
+                <span class="card-index">C</span>
+                <strong>Evidence Over Guessing</strong>
+                <p>
+                  <code>test-driven-development</code>、
+                  <code>systematic-debugging</code>、
+                  <code>verification-before-completion</code>
+                  都在禁止“凭感觉”写、修、报喜。
+                </p>
+              </div>
+              <div class="principle-card">
+                <span class="card-index">D</span>
+                <strong>Lifecycle, Not One-Off Output</strong>
+                <p>
+                  <code>using-git-worktrees</code>、
+                  review 技能和 <code>finishing-a-development-branch</code>
+                  管的是完整交付生命周期，不只是代码片段。
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel panel-superpowers-map" data-fit-check>
+            <div class="panel-title-row">
+              <h2>14 Skills 分层地图</h2>
+              <div class="note-chip-row">
+                <span>入口</span>
+                <span>设计</span>
+                <span>执行</span>
+                <span>收尾</span>
+              </div>
+            </div>
+            <div class="layer-stack">
+              <div class="layer-card">
+                <div class="layer-head">
+                  <strong>1. Governance / Routing</strong>
+                  <span class="layer-tag">先决定流程</span>
+                </div>
+                <p class="layer-note">对话一开始就判断该走哪条 workflow。</p>
+                <div class="skill-pill-row">
+                  <span class="skill-pill">using-superpowers</span>
+                </div>
+              </div>
+
+              <div class="layer-card">
+                <div class="layer-head">
+                  <strong>2. Design / Planning</strong>
+                  <span class="layer-tag">先对齐再实施</span>
+                </div>
+                <p class="layer-note">把想法变成批准过的 spec，再变成 bite-sized plan。</p>
+                <div class="skill-pill-row">
+                  <span class="skill-pill">brainstorming</span>
+                  <span class="skill-pill">writing-plans</span>
+                </div>
+              </div>
+
+              <div class="layer-card">
+                <div class="layer-head">
+                  <strong>3. Execution Disciplines</strong>
+                  <span class="layer-tag">禁止跳步</span>
+                </div>
+                <p class="layer-note">写功能、修 bug、宣称完成都必须有相应纪律。</p>
+                <div class="skill-pill-row">
+                  <span class="skill-pill">test-driven-development</span>
+                  <span class="skill-pill">systematic-debugging</span>
+                  <span class="skill-pill">verification-before-completion</span>
+                  <span class="skill-pill">using-git-worktrees</span>
+                </div>
+              </div>
+
+              <div class="layer-card">
+                <div class="layer-head">
+                  <strong>4. Review / Orchestration</strong>
+                  <span class="layer-tag">把质量闸门做进过程</span>
+                </div>
+                <p class="layer-note">既有线性执行，也有子代理流水线与并行派发策略。</p>
+                <div class="skill-pill-row">
+                  <span class="skill-pill">requesting-code-review</span>
+                  <span class="skill-pill">receiving-code-review</span>
+                  <span class="skill-pill">executing-plans</span>
+                  <span class="skill-pill">subagent-driven-development</span>
+                  <span class="skill-pill">dispatching-parallel-agents</span>
+                </div>
+              </div>
+
+              <div class="layer-card">
+                <div class="layer-head">
+                  <strong>5. Closeout / Evolution</strong>
+                  <span class="layer-tag">让系统可收尾、可复制</span>
+                </div>
+                <p class="layer-note">一条分支怎么结束，这套方法论又如何继续长出新 skills。</p>
+                <div class="skill-pill-row">
+                  <span class="skill-pill">finishing-a-development-branch</span>
+                  <span class="skill-pill">writing-skills</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel panel-superpowers-mainline" data-fit-check>
+          <div class="panel-title-row">
+            <h2>主流程总线</h2>
+            <div class="note-chip-row">
+              <span>从路由到收尾</span>
+              <span>每一步都知道自己在干什么</span>
+            </div>
+          </div>
+          <div class="superpowers-stage-grid">
+            <div class="stage-card">
+              <div class="stage-index">1</div>
+              <h3>Route the Task</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">using-superpowers</span>
+              </div>
+              <p>先判断该进哪个 workflow，再回应、再行动。</p>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-index">2</div>
+              <h3>Converge the Design</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">brainstorming</span>
+              </div>
+              <p>一次一个问题，比较 2-3 条路径，直到用户批准设计。</p>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-index">3</div>
+              <h3>Turn Spec into Plan</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">writing-plans</span>
+              </div>
+              <p>把设计压成精确文件路径、测试步骤、命令和预期输出。</p>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-index">4</div>
+              <h3>Prepare Clean Workspace</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">using-git-worktrees</span>
+              </div>
+              <p>在隔离分支和隔离目录里开工，并先确认 baseline 是干净的。</p>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-index">5</div>
+              <h3>Execute with Guardrails</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">executing-plans</span>
+                <span class="skill-pill">subagent-driven-development</span>
+              </div>
+              <p>按计划执行；若平台支持 subagents，优先用 controller + reviewers 流水线。</p>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-index">6</div>
+              <h3>Review and Interpret</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">requesting-code-review</span>
+                <span class="skill-pill">receiving-code-review</span>
+              </div>
+              <p>review 不是礼仪，而是质量闸门；反馈先核实，再实施。</p>
+            </div>
+
+            <div class="stage-card">
+              <div class="stage-index">7</div>
+              <h3>Verify and Close</h3>
+              <div class="skill-pill-row">
+                <span class="skill-pill">verification-before-completion</span>
+                <span class="skill-pill">finishing-a-development-branch</span>
+              </div>
+              <p>没有 fresh evidence 不许报喜；最后明确 merge / PR / keep / discard。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="superpowers-bottom-grid">
+          <article class="panel panel-superpowers-modes" data-fit-check>
+            <div class="panel-title-row">
+              <h2>执行模式选择</h2>
+              <div class="note-chip-row">
+                <span>线性执行</span>
+                <span>子代理流水线</span>
+                <span>真正独立时再并行</span>
+              </div>
+            </div>
+            <div class="mode-stack">
+              <div class="mode-card">
+                <h3>executing-plans</h3>
+                <p>单会话线性执行模式。先批判性读 plan，再逐任务落实。</p>
+              </div>
+              <div class="mode-card">
+                <h3>subagent-driven-development</h3>
+                <p>每个 task 一个 implementer，先做 spec review，再做 code quality review。</p>
+              </div>
+              <div class="mode-card">
+                <h3>dispatching-parallel-agents</h3>
+                <p>只有在问题域真正独立、无共享状态、不会互相污染时才并行。</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel panel-superpowers-discipline" data-fit-check>
+            <div class="panel-title-row">
+              <h2>三个“别凭感觉”的纪律</h2>
+              <div class="note-chip-row">
+                <span>写功能</span>
+                <span>修 bug</span>
+                <span>报完成</span>
+              </div>
+            </div>
+            <div class="discipline-stack">
+              <div class="discipline-card">
+                <h3>test-driven-development</h3>
+                <p>先让测试红，再写最少代码变绿；没看见它先失败，就不知道它在不在测对的东西。</p>
+              </div>
+              <div class="discipline-card">
+                <h3>systematic-debugging</h3>
+                <p>先找 root cause，再提 fix。不能一看到症状就开始补丁式乱修。</p>
+              </div>
+              <div class="discipline-card">
+                <h3>verification-before-completion</h3>
+                <p>先找证明命令，真跑、真看、真判断，再说“通过了”“修好了”“完成了”。</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel panel-superpowers-evolution" data-fit-check>
+            <div class="panel-title-row">
+              <h2>Review 与系统演化</h2>
+              <div class="note-chip-row">
+                <span>早 review</span>
+                <span>不盲从</span>
+                <span>方法论继续长技能</span>
+              </div>
+            </div>
+            <div class="evolution-stack">
+              <div class="evolution-card">
+                <h3>requesting-code-review</h3>
+                <p>尽早 review，经常 review，让问题在扩散前被拦下来。</p>
+              </div>
+              <div class="evolution-card">
+                <h3>receiving-code-review</h3>
+                <p>把 review 当技术输入，不把“你说得对”当作默认姿态。</p>
+              </div>
+              <div class="evolution-card">
+                <h3>writing-skills</h3>
+                <p>把 recurring workflow 变成可发现、可触发、可验证的新 skill，让系统能复制自己。</p>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
