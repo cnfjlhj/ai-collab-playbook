@@ -2,24 +2,36 @@
 
 [中文](README.md) | English
 
-A practical AI collaboration playbook for research, writing, reading, and coding. This repository is not a loose collection of tricks; it organizes the main article, working rules, reusable prompts, and full skills into one workflow you can actually reuse.
+A practical AI collaboration playbook for research, writing, reading, coding, and everyday learning. This is not just a tool list or a prompt cookbook; it documents how I put AI into real workflows while keeping human judgment, acceptance criteria, and reflection in the loop.
 
-The main article is the center of the repository, and the other files point to the working rules, reusable prompts, figures, and full skill index around it.
+The main article is still the center of the repository. The surrounding rules, prompts, figures, and skill index are here to make the workflow reusable rather than merely inspirational.
 
 ## Contents
 
-- **Main article (2026-03-20 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **AI-era Survival (Learning) Guide**: [`docs/phd-ai-collab.md#八ai时代生存学习指南`](docs/phd-ai-collab.md#八ai时代生存学习指南)
+- **Main article (2026-04-26 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **AI-era Survival (Learning) Guide**: [`docs/phd-ai-collab.md#ai-learning-guide`](docs/phd-ai-collab.md#ai-learning-guide)
 - **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 - **Prompts**: [`prompts/`](prompts)
 - **Figures**: [`docs/figs`](docs/figs)
 - **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
 
+
+## Core Ideas
+
+```text
+Low-friction entry   Put AI where materials and thoughts already appear
+Context first        Prepare goals, materials, preferences, and acceptance criteria
+Multi-model work     Use different models and agents for their strengths
+Visual thinking      Turn complex relations into images, then verify them
+Human in the loop    Do not outsource problem framing or final judgment
+Regular review       Skills and workflows need pruning, not only accumulation
+```
+
 [![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 
 ## What's in this update
 
-The public edition is now synced to `2026-03-20`. Alongside the text update, I also cleaned up the core figure set used on the homepage: the overview poster plus three focused visuals on learning, the code-agent framework, and the learning roadmap. If you only want the images, go to [`docs/figs`](docs/figs). If you want the context around them, start with the article.
+The public edition is now synced to `2026-04-26`. This update expands the playbook beyond coding into everyday learning, visual understanding, remote agents, GPT-Image-2 style context-to-image workflows, and a more explicit warning about efficiency theater. If you only want the images, go to [`docs/figs`](docs/figs). If you want the reasoning around them, start with the article.
 
 ## Figure Preview
 
@@ -31,9 +43,9 @@ The public edition is now synced to `2026-03-20`. Alongside the text update, I a
       <sub>How I try to stay clear-headed when the noise gets loud.</sub>
     </td>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code agent framework" width="250"></a><br>
-      <sub><strong>Code agent framework</strong></sub><br>
-      <sub>How I wire multiple models and agents into one workflow.</sub>
+      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="AI collaboration framework" width="250"></a><br>
+      <sub><strong>AI collaboration framework</strong></sub><br>
+      <sub>How low-friction entry points, context, models, and agents become one system.</sub>
     </td>
     <td align="center" width="33%">
       <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="250"></a><br>
