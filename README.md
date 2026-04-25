@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/figs/hero-banner.svg" width="100%" alt="AI Collab Playbook" />
+  <img src="docs/figs/hero-banner.png" width="100%" alt="AI Collab Playbook" />
 </p>
 
 <p align="center">
