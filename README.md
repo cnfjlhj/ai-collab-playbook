@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/figs/hero-banner.png" width="100%" alt="AI Collab Playbook" />
+  <img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/hero-banner.png" width="100%" alt="AI Collab Playbook" />
 </p>
 
 <p align="center">
@@ -30,24 +30,24 @@
 持续复盘        Skill 不是越多越好，工作流也需要定期清理和迭代
 ```
 
-[![博士生 AI 协作总览图](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
+[![博士生 AI 协作总览图](https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 
 ## 图集速览
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI时代学习指南图" width="250"></a><br>
+      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-learning-guide.png" alt="AI时代学习指南图" width="250"></a><br>
       <sub><strong>学习指南</strong></sub><br>
       <sub>噪声很大的时候，先把自己的判断稳住。</sub>
     </td>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="AI 协作框架图" width="250"></a><br>
+      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-agent-framework.png" alt="AI 协作框架图" width="250"></a><br>
       <sub><strong>AI 协作框架</strong></sub><br>
       <sub>低摩擦入口、上下文、模型和 Agent 如何接成一套系统。</sub>
     </td>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI时代学习路线图" width="250"></a><br>
+      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-learning-roadmap.png" alt="AI时代学习路线图" width="250"></a><br>
       <sub><strong>学习路线</strong></sub><br>
       <sub>AI 时代哪些基本功还值得补。</sub>
     </td>
