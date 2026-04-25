@@ -8,7 +8,7 @@
 
 ---
 
-面向科研、写作、阅读和编程的 AI 协作实战手册。不是零散技巧清单，而是把协作守则、Prompts 和 Skills 组织成一套可复用的工作流。
+面向科研、写作、阅读、编程和日常学习的 AI 协作实战手册。不是零散技巧清单，而是把协作守则、Prompts、Skills、图像化理解和 Agent 工作流组织成一套可复用的方法。
 
 这里公开的是我愿意同步到 GitHub 的版本。公开版通常每周五同步，有明显改动时可能提前。
 
@@ -24,9 +24,9 @@
       <sub>噪声很大的时候，先把自己的判断稳住。</sub>
     </td>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="Code Agent 协作框架图" width="250"></a><br>
-      <sub><strong>Code Agent 框架</strong></sub><br>
-      <sub>怎么把多个模型和 agent 接进一套工作流。</sub>
+      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="AI 协作框架图" width="250"></a><br>
+      <sub><strong>AI 协作框架</strong></sub><br>
+      <sub>低摩擦入口、上下文、模型和 agent 如何接成一套系统。</sub>
     </td>
     <td align="center" width="33%">
       <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI时代学习路线图" width="250"></a><br>
@@ -40,7 +40,7 @@
 
 | 类别 | 入口 | 说明 |
 |------|------|------|
-| 主文章 | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | 完整方法论，2026-03-20 版 |
+| 主文章 | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | 完整方法论，2026-04-26 版 |
 | 协作守则 | [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md) | 我平时真在用的 AI 协作规则 |
 | Prompts | [`prompts/`](prompts) | 提示词优化器、概念解释器、论文精读等 5 个模板 |
 | 完整 Skills | [`skills/full/README.md`](skills/full/README.md) | 仓内所有 skill 总目录 |
