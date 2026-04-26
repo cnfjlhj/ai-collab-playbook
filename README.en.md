@@ -2,7 +2,7 @@
 
 [中文](README.md) | English
 
-A practical AI collaboration playbook for research, writing, reading, coding, and everyday learning. This is not just a tool list or a prompt cookbook; it documents how I put AI into real workflows while keeping human judgment, acceptance criteria, and reflection in the loop.
+A practical AI collaboration playbook for research, writing, reading, coding, and everyday learning. This is not just a tool list or a prompt cookbook; it is about human-led collaboration: putting AI into real workflows while keeping problem framing, quality judgment, trade-offs, and learning in human hands.
 
 The main article is still the center of the repository. The surrounding rules, prompts, figures, and skill index are here to make the workflow reusable rather than merely inspirational.
 
@@ -19,12 +19,12 @@ The main article is still the center of the repository. The surrounding rules, p
 ## Core Ideas
 
 ```text
-Low-friction entry   Put AI where materials and thoughts already appear
+Human as variable    AI amplifies capability, but does not replace judgment
+Colleague mindset    Put AI into real workflows, not only Q&A windows
+Low-friction entry   Put AI where materials, thoughts, and tasks already appear
 Context first        Prepare goals, materials, preferences, and acceptance criteria
-Multi-model work     Use different models and agents for their strengths
-Visual thinking      Turn complex relations into images, then verify them
-Human in the loop    Do not outsource problem framing or final judgment
-Regular review       Skills and workflows need pruning, not only accumulation
+Reusable practice    Turn useful routines into skills, then prune the noise
+Anti-efficiency fog  Do not outsource understanding, taste, trade-offs, or learning
 ```
 
 [![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)

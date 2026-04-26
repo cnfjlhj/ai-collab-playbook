@@ -60,44 +60,44 @@
   <!-- Title -->
   <text x="440" y="88" text-anchor="middle"
         font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif"
-        font-size="40" font-weight="700" fill="#fafafa" letter-spacing="-0.5">
-    AI Collab Playbook
+        font-size="36" font-weight="700" fill="#fafafa" letter-spacing="-0.5">
+    Human-led AI Collaboration
   </text>
 
   <!-- Tagline -->
   <text x="440" y="122" text-anchor="middle"
         font-family="'Droid Sans Fallback', 'AR PL UMing CN', sans-serif"
-        font-size="17" fill="#a1a1aa">
-    面向科研、写作、阅读和编程的 AI 协作实战手册
+        font-size="17" fill="#d4d4d8">
+    把 AI 当同事，不把判断、取舍和学习外包
   </text>
 
   <!-- Accent line -->
   <rect x="365" y="140" width="150" height="2.5" rx="1.25" fill="url(#accent)"/>
 
-  <!-- Topic pills -->
+  <!-- Core pillars -->
   <g transform="translate(440, 175)" text-anchor="middle"
-     font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="12">
-    <rect x="-225" y="-12" width="86" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
-    <text x="-182" y="4" fill="#d4d4d8">Prompts</text>
+     font-family="'Droid Sans Fallback', 'AR PL UMing CN', sans-serif" font-size="12">
+    <rect x="-285" y="-12" width="96" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
+    <text x="-237" y="4" fill="#d4d4d8">人在回路</text>
 
-    <rect x="-125" y="-12" width="72" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
-    <text x="-89" y="4" fill="#d4d4d8">Skills</text>
+    <rect x="-174" y="-12" width="108" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
+    <text x="-120" y="4" fill="#d4d4d8">低摩擦入口</text>
 
-    <rect x="-37" y="-12" width="96" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
-    <text x="11" y="4" fill="#d4d4d8">Workflows</text>
+    <rect x="-51" y="-12" width="108" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
+    <text x="3" y="4" fill="#d4d4d8">判断与验收</text>
 
-    <rect x="75" y="-12" width="76" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
-    <text x="113" y="4" fill="#d4d4d8">Agents</text>
+    <rect x="72" y="-12" width="108" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
+    <text x="126" y="4" fill="#d4d4d8">经验沉淀</text>
 
-    <rect x="167" y="-12" width="60" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
-    <text x="197" y="4" fill="#d4d4d8">Rules</text>
+    <rect x="195" y="-12" width="96" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
+    <text x="243" y="4" fill="#d4d4d8">反效率幻觉</text>
   </g>
 
   <!-- Decorative right-side elements -->
   <g opacity="0.06" transform="translate(740, 70)">
     <!-- Code brackets -->
     <text font-family="'JetBrains Mono', monospace" font-size="48" fill="#10b981">{ }</text>
-    <text x="-10" y="60" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a1a1aa">def collaborate():</text>
-    <text x="-10" y="80" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a1a1aa">    return results</text>
+    <text x="-10" y="60" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a1a1aa">frame → execute</text>
+    <text x="-10" y="80" font-family="'JetBrains Mono', monospace" font-size="14" fill="#a1a1aa">verify → learn</text>
   </g>
 </svg>
