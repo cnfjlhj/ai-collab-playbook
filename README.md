@@ -87,6 +87,10 @@
 - 勘误 / 结构建议：[提 Issue](https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose)
 - 小红书转发版：[链接](https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e)
 
+## 友链
+
+- [linux.do](https://linux.do/)
+
 ---
 
 <details>
