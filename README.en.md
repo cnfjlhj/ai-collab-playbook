@@ -27,7 +27,7 @@ Human in the loop    Do not outsource problem framing or final judgment
 Regular review       Skills and workflows need pruning, not only accumulation
 ```
 
-[![PhD AI collaboration overview](https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
+[![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
 
 ## What's in this update
 
@@ -38,17 +38,17 @@ The public edition is now synced to `2026-04-26`. This update expands the playbo
 <table>
   <tr>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-learning-guide.png" alt="AI-era learning guide" width="250"></a><br>
+      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI-era learning guide" width="250"></a><br>
       <sub><strong>Learning guide</strong></sub><br>
       <sub>How I try to stay clear-headed when the noise gets loud.</sub>
     </td>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-agent-framework.png" alt="AI collaboration framework" width="250"></a><br>
+      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="AI collaboration framework" width="250"></a><br>
       <sub><strong>AI collaboration framework</strong></sub><br>
       <sub>How low-friction entry points, context, models, and agents become one system.</sub>
     </td>
     <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="250"></a><br>
+      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="250"></a><br>
       <sub><strong>Learning roadmap</strong></sub><br>
       <sub>What I still think is worth learning in the AI era.</sub>
     </td>

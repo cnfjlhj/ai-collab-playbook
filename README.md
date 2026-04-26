@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/hero-banner.png" width="100%" alt="AI Collab Playbook" />
+  <img src="docs/figs/hero-banner.png" width="100%" alt="AI Collab Playbook" />
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 持续复盘        Skill 不是越多越好，工作流也需要定期清理和迭代
 ```
 
-[![AI 协作框架图](https://cdn.jsdelivr.net/gh/cnfjlhj/ai-collab-playbook@main/docs/figs/phd-ai-agent-framework.png)](docs/phd-ai-collab.md#code-agent-framework)
+[![AI 协作框架图](docs/figs/phd-ai-agent-framework.png)](docs/phd-ai-collab.md#code-agent-framework)
 
 ## 仓库内容
 

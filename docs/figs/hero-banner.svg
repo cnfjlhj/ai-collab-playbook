@@ -59,14 +59,14 @@
 
   <!-- Title -->
   <text x="440" y="88" text-anchor="middle"
-        font-family="'Inter', 'SF Pro Display', -apple-system, 'Segoe UI', sans-serif"
+        font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif"
         font-size="40" font-weight="700" fill="#fafafa" letter-spacing="-0.5">
     AI Collab Playbook
   </text>
 
   <!-- Tagline -->
   <text x="440" y="122" text-anchor="middle"
-        font-family="'Inter', 'SF Pro Text', -apple-system, 'Segoe UI', sans-serif"
+        font-family="'Droid Sans Fallback', 'AR PL UMing CN', sans-serif"
         font-size="17" fill="#a1a1aa">
     面向科研、写作、阅读和编程的 AI 协作实战手册
   </text>
@@ -76,7 +76,7 @@
 
   <!-- Topic pills -->
   <g transform="translate(440, 175)" text-anchor="middle"
-     font-family="'Inter', 'SF Pro Text', -apple-system, 'Segoe UI', sans-serif" font-size="12">
+     font-family="'DejaVu Sans', 'Liberation Sans', Arial, sans-serif" font-size="12">
     <rect x="-225" y="-12" width="86" height="24" rx="12" fill="#1e293b" stroke="#3f3f46" stroke-width="1"/>
     <text x="-182" y="4" fill="#d4d4d8">Prompts</text>
 
