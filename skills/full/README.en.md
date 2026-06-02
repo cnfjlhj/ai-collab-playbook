@@ -17,6 +17,7 @@ This is **not** a mirror of every private local skill I use. It is the subset I 
 ## Research and Writing
 
 - [`academic-paper-helper/`](academic-paper-helper/): LaTeX, BibTeX, structure templates, and writing scaffolding for AI/ML papers.
+- [`paper2html/`](paper2html/): convert paper PDFs, arXiv/OpenReview pages, or local LaTeX sources into Chinese HTML deep-reading pages with evidence boundaries, KaTeX formulas, figure/table maps, and pre-publication validation.
 - [`paper-review-pipeline/`](paper-review-pipeline/): a local paper review workflow that combines section review, issue grading, citation checks, and rebuttal guidance.
 - [`paperreview/`](paperreview/): a deterministic bridge to `paperreview.ai` for PDF submission and result polling.
 - [`question-refiner/`](question-refiner/): refine a vague research topic into a structured deep-research brief before execution.
@@ -28,6 +29,7 @@ This is **not** a mirror of every private local skill I use. It is the subset I 
 - [`proactive-explorer/`](proactive-explorer/): formalize the habit of exploring facts before asking the user for information.
 - [`all-plan/`](all-plan/): a lightweight multi-perspective planning entry point with scoring and correction loops.
 - [`human-machine-brainstorm/`](human-machine-brainstorm/): a CCB-flavored human-in-the-loop brainstorming workflow rather than a universal multi-agent framework.
+- [`spec-first-mvp/`](spec-first-mvp/): add a small gate for exciting ideas by writing a spec seed, running a throwaway MVP probe, and only then deciding whether to enter full design or implementation.
 - [`prompt-polisher/`](prompt-polisher/): turn messy notes or transcripts into a better prompt for Claude 4.x style workflows.
 - [`session-recovery-codex/`](session-recovery-codex/): recover Codex session state from a session id or recent session list.
 - [`skill-creator/`](skill-creator/): methods and tooling for turning personal workflows into reusable skills.

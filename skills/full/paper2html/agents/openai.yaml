@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper2HTML"
+  short_description: "Paper to HTML research pages"
+  default_prompt: "把这篇论文做成可发布的 HTML 精读页，并按公开/私有边界处理证据。"

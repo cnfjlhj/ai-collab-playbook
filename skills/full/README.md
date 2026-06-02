@@ -15,6 +15,7 @@
 ## 研究与写作
 
 - [`academic-paper-helper/`](academic-paper-helper/)：面向 AI/ML 论文写作的 LaTeX、BibTeX 与结构模板支架，更像写作辅助与片段库，而不是自动研究系统。
+- [`paper2html/`](paper2html/)：把论文 PDF、arXiv/OpenReview 页面或本地 LaTeX source 转成中文 HTML 精读页，强调证据边界、KaTeX 公式、图表映射与发布前验证。
 - [`paper-review-pipeline/`](paper-review-pipeline/)：面向 ML 顶会论文的本地审阅总管，把分章节审阅、问题分级、引用完整性检查与 rebuttal 流程收口在一起。
 - [`paperreview/`](paperreview/)：面向 `paperreview.ai` 的提交与轮询客户端，核心是“上传 PDF → 拿 token → 轮询结果”的外部第二意见流程。
 - [`question-refiner/`](question-refiner/)：在真正进入深度研究之前，用一系列澄清问题把模糊问题收敛成结构化研究任务说明。
@@ -26,6 +27,7 @@
 - [`proactive-explorer/`](proactive-explorer/)：把“先摸清事实，再决定下一步”的主动探索原则固化成工作纪律。
 - [`all-plan/`](all-plan/)：轻量的多视角规划入口，强调 `designer + inspiration + reviewer` 的多轮计划与纠偏。
 - [`human-machine-brainstorm/`](human-machine-brainstorm/)：偏 CCB 生态的人机协同需求对齐工作流，不是泛化到任何环境的万能头脑风暴器。
+- [`spec-first-mvp/`](spec-first-mvp/)：给兴奋态点子加一个小闸门，先写 `spec seed`，再做 throwaway MVP probe，再决定是否进入完整设计或实现。
 - [`prompt-polisher/`](prompt-polisher/)：把语音转写、碎笔记和粗糙说明清洗成更适合 Claude 4.x 系列执行的 prompt。
 - [`session-recovery-codex/`](session-recovery-codex/)：按 `session id` 或最近会话列表恢复 Codex 上下文，提取任务、TODO、文件与报错。
 - [`skill-creator/`](skill-creator/)：把个人工作流沉淀成 skill 的方法论与工具包，覆盖 frontmatter、资源拆分、初始化与校验。
