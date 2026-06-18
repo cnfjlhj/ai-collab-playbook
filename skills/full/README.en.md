@@ -2,17 +2,20 @@
 
 [中文](README.md) | English
 
-This directory contains the full public skill packages that are currently worth syncing to GitHub.
-
-Most entries include at least a `SKILL.md`. Some also include `references/`, `scripts/`, `assets/`, or an extra `README.md` when that helps the public version.
+Skills are workflows I've validated repeatedly and then formalized — not one-off prompts, but reusable processes with goals, steps, and acceptance criteria.
 
 This is **not** a mirror of every private local skill I use. It is the subset I currently consider public-safe, useful, and worth sharing.
 
-## How to Read This Directory
+The skills are organized into four categories by scenario:
 
-- If you want to go back to the repository homepage, see [`../../README.en.md`](../../README.en.md) or [`../../README.md`](../../README.md).
-- If you want the actual skill content, enter the relevant directory and start with `SKILL.md`.
-- This directory is the in-repo source of truth for the public full skills.
+- **Research and Writing**: paper reading, review, anti-AI writing, video summaries, etc.
+- **Planning, Collaboration, and Recovery**: proactive exploration, multi-perspective planning, requirement alignment, session recovery, skill governance, etc.
+- **Multi-model Collaboration**: bridging and cross-validation between Claude, Codex, and Gemini
+- **Publishing and Content Production**: Xiaohongshu notes, long-form publishing, etc.
+
+Each skill directory contains at least a `SKILL.md` — that's the actual content. Start there.
+
+If you want to go back to the repository homepage, see [`../../README.en.md`](../../README.en.md).
 
 ## Research and Writing
 

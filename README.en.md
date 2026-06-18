@@ -2,133 +2,88 @@
 
 [中文](README.md) | English
 
-A practical AI collaboration playbook for research, writing, reading, coding, and everyday learning. This is not just a tool list or a prompt cookbook; it is about human-led collaboration: putting AI into real workflows while keeping problem framing, quality judgment, trade-offs, and learning in human hands.
+I'm a PhD student in AI. Since the GPT-3.5 days I've been using AI heavily across research, writing, coding, and everyday learning. This repo is the accumulation of that experience.
 
-The main article is still the center of the repository. The surrounding rules, prompts, figures, and skill index are here to make the workflow reusable rather than merely inspirational.
+This is not a tool list or a prompt cookbook. The question I keep coming back to is: once AI can participate in all these activities, how do you keep owning the problem, judging the quality, building experience — and stop yourself from outsourcing understanding?
 
-## Contents
+**Treat AI as a colleague, not a tool — but the human is still the main variable.** AI can explore, generate, and execute, but problem framing, acceptance criteria, trade-offs, and final judgment should stay with you. Otherwise higher efficiency just means producing the illusion of progress, faster.
 
-- **Main article (2026-04-26 edition)**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
-- **AI-era Survival (Learning) Guide**: [`docs/phd-ai-collab.md#ai-learning-guide`](docs/phd-ai-collab.md#ai-learning-guide)
-- **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
-- **Prompts**: [`prompts/`](prompts)
-- **Figures**: [`docs/figs`](docs/figs)
-- **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
+## Start Here
 
+- **Full article**: [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md)
+- **Quick overview**: the three figures below, then jump to the matching sections in the article.
+- **Reusable workflows**: [`skills/full/README.en.md`](skills/full/README.en.md) and [`prompts/`](prompts)
+- **How I constrain agents**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
 
-## Core Ideas
+## What This Playbook Is About
 
-```text
-Human as variable    AI amplifies capability, but does not replace judgment
-Colleague mindset    Put AI into real workflows, not only Q&A windows
-Low-friction entry   Put AI where materials, thoughts, and tasks already appear
-Context first        Prepare goals, materials, preferences, and acceptance criteria
-Reusable practice    Turn useful routines into skills, then prune the noise
-Anti-efficiency fog  Do not outsource understanding, taste, trade-offs, or learning
-```
+**Human as the main variable.** AI amplifies capability, but it cannot replace problem awareness or judgment. You still need to know what you want, what counts as good, and what to drop.
 
-[![PhD AI collaboration overview](docs/figs/phd-ai-collab-overview.png)](docs/phd-ai-collab.md)
+**Colleague, not oracle.** Put AI into real workflows — not just Q&A windows. Selection-triggered tools, IM-based dispatch, remote agents: the closer the entry point is to your actual task, the more naturally AI gets used.
 
-## What's in this update
+**Low-friction entry.** Not every task deserves a full agent pipeline. Lightweight one-off jobs should go to lightweight entry points — a selection toolbar, a chat message, a browser sidebar.
 
-The public edition is now synced to `2026-04-26`. This update expands the playbook beyond coding into everyday learning, visual understanding, remote agents, GPT-Image-2 style context-to-image workflows, and a more explicit warning about efficiency theater. If you only want the images, go to [`docs/figs`](docs/figs). If you want the reasoning around them, start with the article.
+**Context first.** Prepare your goals, materials, preferences, and acceptance criteria before you hand off execution. AI output without context is barely better than dice rolls.
 
-## Figure Preview
+**Reusable practice.** Turn what works into Skills and Workflows — they get better and faster with reuse. But prune regularly; skill bloat is its own kind of noise.
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#ai-learning-guide"><img src="docs/figs/phd-ai-learning-guide.png" alt="AI-era learning guide" width="250"></a><br>
-      <sub><strong>Learning guide</strong></sub><br>
-      <sub>How I try to stay clear-headed when the noise gets loud.</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#code-agent-framework"><img src="docs/figs/phd-ai-agent-framework.png" alt="AI collaboration framework" width="250"></a><br>
-      <sub><strong>AI collaboration framework</strong></sub><br>
-      <sub>How low-friction entry points, context, models, and agents become one system.</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="docs/phd-ai-collab.md#ai-learning-roadmap"><img src="docs/figs/phd-ai-learning-roadmap.png" alt="AI learning roadmap" width="250"></a><br>
-      <sub><strong>Learning roadmap</strong></sub><br>
-      <sub>What I still think is worth learning in the AI era.</sub>
-    </td>
-  </tr>
-</table>
+**Anti-efficiency theater.** Beware of outsourcing understanding, taste, trade-offs, and learning itself to AI. Being efficient without understanding what you're doing is more dangerous than being slow.
 
-## What Else Is in the Repo
+[![PhD AI collaboration framework](docs/figs/phd-ai-agent-framework.png)](docs/phd-ai-collab.md#code-agent-framework)
 
-- **Working rules**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
-- **Prompts**: [`prompts/`](prompts)
-- **Full skills**: [`skills/full/README.en.md`](skills/full/README.en.md)
-- **Update cadence**: the public version is usually synced on Fridays, with earlier updates when something meaningfully changes.
+## What's in This Repo
 
-## External Posts
+| Category | Entry | Description |
+|----------|-------|-------------|
+| Main article | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | Full methodology, 2026-06-08 edition |
+| Agent rules | [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md) | The rules I actually use to constrain AI agents |
+| Prompts | [`prompts/`](prompts) | Reusable prompt templates: prompt polisher, concept explainer, paper reading, etc. |
+| Full Skills | [`skills/full/README.en.md`](skills/full/README.en.md) | All in-repo public skills with descriptions |
+| Figures | [`docs/figs/`](docs/figs) | Framework diagrams, learning guide, roadmap |
 
-- **Xiaohongshu post**: <https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e?source=webshare&xhsshare=pc_web&xsec_token=LBModFyJ1bo4oqM2YmRbD3X0SpH1wO_Yo72JPNGieHJRo=&xsec_source=pc_share>
+## Independent Skill Repos
+
+These skills have been spun out into standalone repositories. They aren't meant to be installed all at once — pick what fits your workflow:
+
+| Skill | Purpose |
+|-------|---------|
+| [paper-review-pipeline](https://github.com/cnfjlhj/paper-review-pipeline) | End-to-end paper review workflow |
+| [paperreview](https://github.com/cnfjlhj/paperreview) | paperreview.ai bridge for second opinions |
+| [skills-governance](https://github.com/cnfjlhj/skills-governance) | Skill inventory and governance |
+| [session-recovery-codex](https://github.com/cnfjlhj/session-recovery-codex) | Codex session state recovery |
+| [collaborating-with-codex](https://github.com/cnfjlhj/collaborating-with-codex) | Multi-Codex collaboration patterns |
+| [completion-learn](https://github.com/cnfjlhj/completion-learn) | Three-axis retrospective after task completion: self, collaboration, tool |
+| [xhs-note-creator](https://github.com/cnfjlhj/xhs-note-creator) | Xiaohongshu note creation pipeline |
+| [prompt-polisher](https://github.com/cnfjlhj/prompt-polisher) | Turn rough notes into clean prompts |
+| [writing-anti-ai](https://github.com/cnfjlhj/writing-anti-ai) | Remove AI-sounding patterns from writing |
+| [xhs-longform-private-publisher](https://github.com/cnfjlhj/xhs-longform-private-publisher) | Publish Markdown long-form to Xiaohongshu |
 
 ## Feedback
 
-- **Drop a comment, leave feedback, or share your own adaptation**: <https://github.com/cnfjlhj/ai-collab-playbook/discussions/1>
-- **Corrections, structural feedback, or content fixes**: <https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose>
+- Comments and adaptations: [Discussions](https://github.com/cnfjlhj/ai-collab-playbook/discussions/1)
+- Corrections or structural suggestions: [Open an issue](https://github.com/cnfjlhj/ai-collab-playbook/issues/new/choose)
+- Xiaohongshu post: [link](https://www.xiaohongshu.com/discovery/item/69ab040f000000001a02d99e)
 
-## Working Rules
+---
 
-- [`AGENTS.md`](AGENTS.md): working rules for Codex and general agents
-- [`CLAUDE.md`](CLAUDE.md): working rules for Claude Code style workflows
-
-These files are not decoration. They are the rules I actually use, so if you also want AI inside your real workflow, they are worth reading early.
-
-## Prompts
-
-These are prompt files I reuse a lot:
-
-- [`prompts/提示词优化器.md`](prompts/提示词优化器.md)
-- [`prompts/概念解释器.md`](prompts/概念解释器.md)
-- [`prompts/视频时间戳总结.md`](prompts/视频时间戳总结.md)
-- [`prompts/论文精读.md`](prompts/论文精读.md)
-- [`prompts/论文转网页.md`](prompts/论文转网页.md)
-
-## Full Skills
-
-This README points straight to the full skills instead of repeating the shorter `skills/*.md` index cards.
-
-- **In-repo full skill index**: [`skills/full/README.en.md`](skills/full/README.en.md)
-
-### Skills split into standalone repositories
-
-- [`paper-review-pipeline`](https://github.com/cnfjlhj/paper-review-pipeline)
-- [`paperreview`](https://github.com/cnfjlhj/paperreview)
-- [`skills-governance`](https://github.com/cnfjlhj/skills-governance)
-- [`session-recovery-codex`](https://github.com/cnfjlhj/session-recovery-codex)
-- [`collaborating-with-codex`](https://github.com/cnfjlhj/collaborating-with-codex)
-- [`completion-learn`](https://github.com/cnfjlhj/completion-learn) — a completion-only three-layer sedimentation skill: after a task is done, what remains across self, collaboration, and tool?
-- [`xhs-note-creator`](https://github.com/cnfjlhj/xhs-note-creator)
-- [`prompt-polisher`](https://github.com/cnfjlhj/prompt-polisher)
-- [`writing-anti-ai`](https://github.com/cnfjlhj/writing-anti-ai)
-- [`xhs-longform-private-publisher`](https://github.com/cnfjlhj/xhs-longform-private-publisher)
-
-The remaining full skills stay in this repository and can be reached from [`skills/full/README.en.md`](skills/full/README.en.md).
-
-## Notes
-
-- The public files here are the versions I am willing to sync to GitHub, not a mirror of every private local setup I use.
-- This repo mainly keeps the article, the rules, and the full skill entry points. Skills that make more sense as standalone projects can keep moving out into their own repositories.
-
-## ⭐ Star History
+<details>
+<summary>Star History</summary>
 
 <a href="https://www.star-history.com/?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&theme=dark&legend=top-left"
+      srcset="https://api.star-history.com/image?repos=cnfjlhj%2Fai-collab-playbook&type=date&theme=dark&legend=top-left"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
+      srcset="https://api.star-history.com/image?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left"
     />
     <img
       alt="Star History Chart"
-      src="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
+      src="https://api.star-history.com/image?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left"
     />
   </picture>
 </a>
+
+</details>
