@@ -14,6 +14,7 @@ import threading
 import time
 import shutil
 import argparse
+import shlex
 from pathlib import Path
 from typing import Generator, List, Optional
 
@@ -187,23 +188,9 @@ def configure_windows_stdio() -> None:
                 pass
 
 
-def main():
-    configure_windows_stdio()
-    parser = argparse.ArgumentParser(description="Codex Bridge")
-    parser.add_argument("--PROMPT", required=True, help="Instruction for the task to send to codex.")
-    parser.add_argument("--cd", required=True, help="Set the workspace root for codex before executing the task.")
-    parser.add_argument("--sandbox", default="read-only", choices=["read-only", "workspace-write", "danger-full-access"], help="Sandbox policy for model-generated commands. Defaults to `read-only`.")
-    parser.add_argument("--SESSION_ID", default="", help="Resume the specified session of the codex. Defaults to `None`, start a new session.")
-    parser.add_argument("--skip-git-repo-check", action="store_true", default=True, help="Allow codex running outside a Git repository (useful for one-off directories).")
-    parser.add_argument("--return-all-messages", action="store_true", help="Return all messages (e.g. reasoning, tool calls, etc.) from the codex session. Set to `False` by default, only the agent's final reply message is returned.")
-    parser.add_argument("--image", action="append", default=[], help="Attach one or more image files to the initial prompt. Separate multiple paths with commas or repeat the flag.")
-    parser.add_argument("--model", default="", help="The model to use for the codex session. This parameter is strictly prohibited unless explicitly specified by the user.")
-    parser.add_argument("--yolo", action="store_true", help="Run every command without approvals or sandboxing. Only use when `sandbox` couldn't be applied.")
-    parser.add_argument("--profile", default="", help="Configuration profile name to load from `~/.codex/config.toml`. This parameter is strictly prohibited unless explicitly specified by the user.")
-
-    args = parser.parse_args()
-
-    cmd = ["codex", "exec", "--sandbox", args.sandbox, "--cd", args.cd, "--json"]
+def build_codex_command(args) -> List[str]:
+    """Build the codex exec command for local or remote execution."""
+    cmd = [args.codex_bin, "exec", "--sandbox", args.sandbox, "--cd", args.cd, "--json"]
 
     if args.image:
         cmd.extend(["--image", ",".join(args.image)])
@@ -224,10 +211,43 @@ def main():
         cmd.extend(["resume", args.SESSION_ID])
 
     PROMPT = args.PROMPT
-    if os.name == "nt":
+    if os.name == "nt" and not args.ssh:
         PROMPT = windows_escape(PROMPT)
 
     cmd += ['--', PROMPT]
+    return cmd
+
+
+def wrap_remote_command(args, codex_cmd: List[str]) -> List[str]:
+    """Run the codex command through ssh while preserving argument boundaries."""
+    if not args.ssh:
+        return codex_cmd
+
+    remote_cmd = " ".join(shlex.quote(part) for part in codex_cmd)
+    return ["ssh", *args.ssh_option, args.ssh, remote_cmd]
+
+
+def main():
+    configure_windows_stdio()
+    parser = argparse.ArgumentParser(description="Codex Bridge")
+    parser.add_argument("--PROMPT", required=True, help="Instruction for the task to send to codex.")
+    parser.add_argument("--cd", required=True, help="Set the workspace root for codex before executing the task.")
+    parser.add_argument("--sandbox", default="read-only", choices=["read-only", "workspace-write", "danger-full-access"], help="Sandbox policy for model-generated commands. Defaults to `read-only`.")
+    parser.add_argument("--SESSION_ID", default="", help="Resume the specified session of the codex. Defaults to `None`, start a new session.")
+    parser.add_argument("--skip-git-repo-check", action="store_true", default=True, help="Allow codex running outside a Git repository (useful for one-off directories).")
+    parser.add_argument("--return-all-messages", action="store_true", help="Return all messages (e.g. reasoning, tool calls, etc.) from the codex session. Set to `False` by default, only the agent's final reply message is returned.")
+    parser.add_argument("--image", action="append", default=[], help="Attach one or more image files to the initial prompt. Separate multiple paths with commas or repeat the flag.")
+    parser.add_argument("--model", default="", help="The model to use for the codex session. This parameter is strictly prohibited unless explicitly specified by the user.")
+    parser.add_argument("--yolo", action="store_true", help="Run every command without approvals or sandboxing. Only use when `sandbox` couldn't be applied.")
+    parser.add_argument("--profile", default="", help="Configuration profile name to load from `~/.codex/config.toml`. This parameter is strictly prohibited unless explicitly specified by the user.")
+    parser.add_argument("--ssh", default="", help="Run Codex on a remote host via SSH. Value can be an SSH alias or user@host. When set, --cd and --image paths are remote paths.")
+    parser.add_argument("--ssh-option", action="append", default=[], help="Extra ssh option, repeatable. Example: --ssh-option=-J --ssh-option=bastion")
+    parser.add_argument("--codex-bin", dest="codex_bin", metavar="CODEX_BIN", default="codex", help="Codex executable to run locally or on the remote host. Defaults to `codex`.")
+    parser.add_argument("--remote-codex", dest="codex_bin", metavar="CODEX_BIN", help=argparse.SUPPRESS)
+
+    args = parser.parse_args()
+
+    cmd = wrap_remote_command(args, build_codex_command(args))
 
     # Execution Logic
     all_messages = []

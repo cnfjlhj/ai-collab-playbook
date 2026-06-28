@@ -12,6 +12,7 @@ This Skill enables Claude to delegate coding tasks to Codex CLI, combining the s
 - **Sandboxed execution**: Three security levels (`read-only`, `workspace-write`, `danger-full-access`)
 - **JSON output**: Structured responses for easy parsing and integration
 - **Image support**: Attach images to prompts for visual context
+- **SSH remote execution**: Run Codex CLI on a remote server while keeping JSON output and session resume support
 - **Cross-platform**: Windows path escaping handled automatically
 
 ## Installation
@@ -29,6 +30,14 @@ This Skill enables Claude to delegate coding tasks to Codex CLI, combining the s
 python scripts/codex_bridge.py --cd "/path/to/project" --PROMPT "Analyze the authentication flow"
 ```
 
+### Remote over SSH
+
+```bash
+python scripts/codex_bridge.py --ssh "server-alias" --cd "/remote/project" --PROMPT "Analyze the authentication flow"
+```
+
+When `--ssh` is set, `--cd` and `--image` paths are interpreted on the remote host. The remote host must have `codex` available in its non-interactive shell `PATH`, or you can pass `--codex-bin "/absolute/path/to/codex"`.
+
 ### Multi-turn Session
 
 ```bash
@@ -38,6 +47,12 @@ python scripts/codex_bridge.py --cd "/project" --PROMPT "Review login.py for sec
 
 # Continue the session
 python scripts/codex_bridge.py --cd "/project" --SESSION_ID "uuid-from-response" --PROMPT "Suggest fixes for the issues found"
+```
+
+For remote sessions, continue against the same SSH host:
+
+```bash
+python scripts/codex_bridge.py --ssh "server-alias" --cd "/remote/project" --SESSION_ID "uuid-from-response" --PROMPT "Suggest fixes for the issues found"
 ```
 
 ### Parameters
@@ -52,6 +67,10 @@ python scripts/codex_bridge.py --cd "/project" --SESSION_ID "uuid-from-response"
 | `--image` | No | Attach image files (comma-separated or repeated) |
 | `--model` | No | Specify model (use only when explicitly requested) |
 | `--yolo` | No | Bypass all approvals (use with caution) |
+| `--profile` | No | Specify Codex config profile (use only when explicitly requested) |
+| `--ssh` | No | SSH alias or `user@host` for running Codex on a remote server |
+| `--ssh-option` | No | Extra SSH option, repeatable; use `--ssh-option=-J --ssh-option=bastion` for jump hosts |
+| `--codex-bin` | No | Codex executable path/name locally or on the remote host; `--remote-codex` is accepted as an alias |
 
 ### Output Format
 
