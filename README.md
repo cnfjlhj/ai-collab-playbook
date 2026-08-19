@@ -79,19 +79,19 @@
 <details>
 <summary>Star History</summary>
 
-<a href="https://www.star-history.com/?repos=cnfjlhj%2Fai-collab-playbook&type=date&legend=top-left">
+<a href="https://star-history.dera.page/#cnfjlhj/ai-collab-playbook&type=date&legend=top-left">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&theme=dark&legend=top-left"
+      srcset="https://star-history.dera.page/svg?repos=cnfjlhj/ai-collab-playbook&type=date&theme=dark&legend=top-left"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
+      srcset="https://star-history.dera.page/svg?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
     />
     <img
       alt="Star History Chart"
-      src="https://api.star-history.com/image?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
+      src="https://star-history.dera.page/svg?repos=cnfjlhj/ai-collab-playbook&type=date&legend=top-left"
     />
   </picture>
 </a>
