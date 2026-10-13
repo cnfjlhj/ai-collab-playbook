@@ -14,6 +14,7 @@ This is not a tool list or a prompt cookbook. The question I keep coming back to
 - **Quick overview**: the three figures below, then jump to the matching sections in the article.
 - **Reusable workflows**: [`skills/full/README.en.md`](skills/full/README.en.md) and [`prompts/`](prompts)
 - **How I constrain agents**: [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)
+- **Companion essay** (Chinese): [`docs/human-finds-a-way/article.md`](docs/human-finds-a-way/article.md) — *Human Finds a Way*, on human value in the AI era
 
 ## What This Playbook Is About
 
@@ -40,6 +41,7 @@ This is not a tool list or a prompt cookbook. The question I keep coming back to
 | Prompts | [`prompts/`](prompts) | Reusable prompt templates: prompt polisher, concept explainer, paper reading, etc. |
 | Full Skills | [`skills/full/README.en.md`](skills/full/README.en.md) | All in-repo public skills with descriptions |
 | Figures | [`docs/figs/`](docs/figs) | Framework diagrams, learning guide, roadmap |
+| Essay | [`docs/human-finds-a-way/article.md`](docs/human-finds-a-way/article.md) | *Human Finds a Way* (Chinese): human value in the AI era |
 
 ## Independent Skill Repos
 
