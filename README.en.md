@@ -36,7 +36,7 @@ This is not a tool list or a prompt cookbook. The question I keep coming back to
 
 | Category | Entry | Description |
 |----------|-------|-------------|
-| Main article | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | Full methodology, 2026-06-08 edition |
+| Main article | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | Full methodology, 2026-10-13 edition |
 | Agent rules | [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md) | The rules I actually use to constrain AI agents |
 | Prompts | [`prompts/`](prompts) | Reusable prompt templates: prompt polisher, concept explainer, paper reading, etc. |
 | Full Skills | [`skills/full/README.en.md`](skills/full/README.en.md) | All in-repo public skills with descriptions |

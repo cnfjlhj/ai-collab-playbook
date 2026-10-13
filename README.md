@@ -42,7 +42,7 @@
 
 | 类别 | 入口 | 说明 |
 |------|------|------|
-| 主文章 | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | 完整方法论，2026-06-08 版 |
+| 主文章 | [`docs/phd-ai-collab.md`](docs/phd-ai-collab.md) | 完整方法论，2026-10-13 版 |
 | 协作守则 | [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md) | 我平时真在用的 AI 协作规则 |
 | Prompts | [`prompts/`](prompts) | 提示词优化器、概念解释器、论文精读等模板 |
 | 完整 Skills | [`skills/full/README.md`](skills/full/README.md) | 仓内所有 Skill 总目录 |

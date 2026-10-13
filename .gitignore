@@ -15,3 +15,12 @@ docs/CLAUDE.md-*.txt
 # Python caches
 __pycache__/
 *.pyc
+
+# Local runtime sync artifacts
+.cache/
+
+# Local-only distribution packs, publishing runs, and experiments
+distribution/
+assets/gpt-image-2-redraws/
+.cc-connect/
+scripts/google_workspace_sync.py
