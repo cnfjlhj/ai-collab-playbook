@@ -20,7 +20,6 @@
 - **想快速抓主线**：先看下面三张图，再回到文章对应章节。
 - **想复用工作流**：看 [`skills/full/README.md`](skills/full/README.md) 和 [`prompts/`](prompts)。
 - **想看我怎么约束 Agent**：看 [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md)。
-- **想读同主题随笔**：[Human Finds a Way](docs/human-finds-a-way/article.md)——当 AI 越来越强，人的价值在哪里。
 
 ## 这份手册在讲什么
 
@@ -47,7 +46,6 @@
 | Prompts | [`prompts/`](prompts) | 提示词优化器、概念解释器、论文精读等模板 |
 | 完整 Skills | [`skills/full/README.md`](skills/full/README.md) | 仓内所有 Skill 总目录 |
 | 配图 | [`docs/figs/`](docs/figs) | 总览图、学习指南、框架图、路线图 |
-| 随笔 | [`docs/human-finds-a-way/article.md`](docs/human-finds-a-way/article.md) | Human Finds a Way：AI 时代的人的价值 |
 
 ## 独立维护的 Skills
 

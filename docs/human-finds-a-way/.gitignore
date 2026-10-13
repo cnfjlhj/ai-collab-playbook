@@ -1,5 +1,0 @@
-# Local-only publishing materials and runtime artifacts — never push to GitHub
-assets/
-.hapi-deliveries/
-.claude/
-.build/
